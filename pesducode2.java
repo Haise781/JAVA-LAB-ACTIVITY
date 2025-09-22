@@ -1,3 +1,4 @@
+import java.io.IO;
 import java.util.Scanner;
 
 public class pesducode2 {
@@ -26,6 +27,9 @@ public class pesducode2 {
 
         System.out.println("The average is " + average);
 
+
+
         scanner.close();
     }
+
 }

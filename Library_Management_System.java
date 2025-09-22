@@ -48,7 +48,6 @@ class Book implements Serializable {
 }
 
 public class Library_Management_System {
-
     private static final String FILE_NAME = "library.dat";
     private static List<Book> books = new ArrayList<>();
 
