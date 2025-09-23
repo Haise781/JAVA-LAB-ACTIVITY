@@ -27,7 +27,7 @@ public class SimpleCalculator {
                 System.out.println("The subtraction is " + result);
                 break;
             case '*':
-                result = firstNumber * secondNumber:
+                result = firstNumber * secondNumber;
                 System.out.println("The multiplication is " + result);
                 break;
             case '/':
