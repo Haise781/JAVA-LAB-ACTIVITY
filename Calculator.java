@@ -1,6 +1,8 @@
+
 import java.util.Scanner;
 
 public class Calculator {
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -52,5 +54,6 @@ public class Calculator {
         System.out.println("After y-- → " + y);
 
         input.close();
+
     }
 }
