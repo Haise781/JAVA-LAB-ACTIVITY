@@ -45,6 +45,7 @@ public class Task09_Ledesma_christopher_SwitchActivity {
             
                 System.out.print("The operation is invalid. Check the operator!");
                 break;
+                
         }
 
         // close the scanner
