@@ -85,6 +85,11 @@ public class All_Operator{
 
     // 3. Logical Operators
     static void logical(Scanner sc) {
+
+
+
+
+        
         System.out.println("\n--- Logical Operators ---");
         System.out.print("Enter first number: ");
         int a = sc.nextInt();
