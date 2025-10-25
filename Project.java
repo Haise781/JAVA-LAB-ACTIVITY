@@ -5,6 +5,7 @@ public class Project {
     public static void main (String[]args) {
         Scanner scanner = new Scanner(System.in);
 
+<<<<<<< HEAD
         IO.println("Enter the first number: ");
         int n1  = scanner.nextInt();
 
@@ -45,6 +46,9 @@ public class Project {
 
 
 
+=======
+        
+>>>>>>> fec6067fd6c6ba2266055cbf9f17b310a7b1c7dc
 
 
 
