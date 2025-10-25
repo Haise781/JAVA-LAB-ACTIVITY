@@ -247,6 +247,9 @@ public class Midterm {
 
         } while (choice != 15);
 
+
+        
+
         scanner.close();
     }
 }
