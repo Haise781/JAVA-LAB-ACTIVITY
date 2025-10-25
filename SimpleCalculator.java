@@ -41,7 +41,7 @@ public class SimpleCalculator {
                 default:
                 System.out.println("Invalid operation. Please enter on of (+, -, *, /.) make sure to use the correct symbols.");
                 break;
-            }
+            }  
         scanner.close();
     }
 }
