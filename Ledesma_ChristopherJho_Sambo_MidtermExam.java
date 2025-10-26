@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Ledesma_ChristopherJho_Sambo_MidtermExam {

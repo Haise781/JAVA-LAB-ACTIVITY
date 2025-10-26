@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Midterm {
 
     public static void main(String[] args) {
-       Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         int choice;
 
         do {
@@ -91,8 +91,11 @@ public class Midterm {
                     double total = bolts * pricePerBolt;
                     double discount = 0;
 
-                    if (bolts >= 100) discount = 0.10;
-                    else if (bolts >= 50) discount = 0.05;
+                    if (bolts >= 100) {
+                        discount = 0.10; 
+                    }else if (bolts >= 50) {
+                        discount = 0.05;
+                    }
 
                     double discountedTotal = total - (total * discount);
                     System.out.println("Total price after discount: ₱" + discountedTotal);
@@ -121,10 +124,15 @@ public class Midterm {
 
                     double bmi = weight / (height * height);
                     System.out.printf("Your BMI is %.2f - ", bmi);
-                    if (bmi < 18.5) System.out.println("Underweight");
-                    else if (bmi < 25) System.out.println("Normal weight");
-                    else if (bmi < 30) System.out.println("Overweight");
-                    else System.out.println("Obese");
+                    if (bmi < 18.5) {
+                        System.out.println("Underweight"); 
+                    }else if (bmi < 25) {
+                        System.out.println("Normal weight"); 
+                    }else if (bmi < 30) {
+                        System.out.println("Overweight"); 
+                    }else {
+                        System.out.println("Obese");
+                    }
                     break;
 
                 // 7️⃣ Gas Cylinder
@@ -133,15 +141,21 @@ public class Midterm {
                     double size = scanner.nextDouble();
 
                     double price;
-                    if (size == 11) price = 900;
-                    else if (size == 7) price = 600;
-                    else if (size == 2.7) price = 300;
-                    else price = 0;
+                    if (size == 11) {
+                        price = 900; 
+                    }else if (size == 7) {
+                        price = 600; 
+                    }else if (size == 2.7) {
+                        price = 300; 
+                    }else {
+                        price = 0;
+                    }
 
-                    if (price > 0)
-                        System.out.println("The price of a " + size + "kg cylinder is ₱" + price);
-                    else
+                    if (price > 0) {
+                        System.out.println("The price of a " + size + "kg cylinder is ₱" + price); 
+                    }else {
                         System.out.println("Invalid cylinder size.");
+                    }
                     break;
 
                 // 8️⃣ Convert Weekend and Days
@@ -169,9 +183,13 @@ public class Midterm {
                     double usage = scanner.nextDouble();
                     double charge;
 
-                    if (usage <= 10) charge = usage * 15;
-                    else if (usage <= 20) charge = usage * 20;
-                    else charge = usage * 25;
+                    if (usage <= 10) {
+                        charge = usage * 15; 
+                    }else if (usage <= 20) {
+                        charge = usage * 20; 
+                    }else {
+                        charge = usage * 25;
+                    }
 
                     System.out.println("Total water bill: ₱" + charge);
                     break;
@@ -181,12 +199,18 @@ public class Midterm {
                     System.out.print("\nEnter rating (1–5): ");
                     int rate = scanner.nextInt();
                     switch (rate) {
-                        case 1 -> System.out.println("Very Poor");
-                        case 2 -> System.out.println("Poor");
-                        case 3 -> System.out.println("Average");
-                        case 4 -> System.out.println("Good");
-                        case 5 -> System.out.println("Excellent");
-                        default -> System.out.println("Invalid rating.");
+                        case 1 ->
+                            System.out.println("Very Poor");
+                        case 2 ->
+                            System.out.println("Poor");
+                        case 3 ->
+                            System.out.println("Average");
+                        case 4 ->
+                            System.out.println("Good");
+                        case 5 ->
+                            System.out.println("Excellent");
+                        default ->
+                            System.out.println("Invalid rating.");
                     }
                     break;
 
@@ -195,13 +219,21 @@ public class Midterm {
                     System.out.print("\nEnter wavelength in nm (380–750): ");
                     int wavelength = scanner.nextInt();
 
-                    if (wavelength < 450) System.out.println("Color: Violet");
-                    else if (wavelength < 495) System.out.println("Color: Blue");
-                    else if (wavelength < 570) System.out.println("Color: Green");
-                    else if (wavelength < 590) System.out.println("Color: Yellow");
-                    else if (wavelength < 620) System.out.println("Color: Orange");
-                    else if (wavelength <= 750) System.out.println("Color: Red");
-                    else System.out.println("Not visible spectrum.");
+                    if (wavelength < 450) {
+                        System.out.println("Color: Violet"); 
+                    }else if (wavelength < 495) {
+                        System.out.println("Color: Blue"); 
+                    }else if (wavelength < 570) {
+                        System.out.println("Color: Green"); 
+                    }else if (wavelength < 590) {
+                        System.out.println("Color: Yellow"); 
+                    }else if (wavelength < 620) {
+                        System.out.println("Color: Orange"); 
+                    }else if (wavelength <= 750) {
+                        System.out.println("Color: Red"); 
+                    }else {
+                        System.out.println("Not visible spectrum.");
+                    }
                     break;
 
                 // 1️⃣3️⃣ Automobile Insurance Premium
@@ -220,18 +252,31 @@ public class Midterm {
                     int day = scanner.nextInt();
 
                     String zodiac = "";
-                    if ((month == 1 && day >= 20) || (month == 2 && day <= 18)) zodiac = "Aquarius";
-                    else if ((month == 2 && day >= 19) || (month == 3 && day <= 20)) zodiac = "Pisces";
-                    else if ((month == 3 && day >= 21) || (month == 4 && day <= 19)) zodiac = "Aries";
-                    else if ((month == 4 && day >= 20) || (month == 5 && day <= 20)) zodiac = "Taurus";
-                    else if ((month == 5 && day >= 21) || (month == 6 && day <= 20)) zodiac = "Gemini";
-                    else if ((month == 6 && day >= 21) || (month == 7 && day <= 22)) zodiac = "Cancer";
-                    else if ((month == 7 && day >= 23) || (month == 8 && day <= 22)) zodiac = "Leo";
-                    else if ((month == 8 && day >= 23) || (month == 9 && day <= 22)) zodiac = "Virgo";
-                    else if ((month == 9 && day >= 23) || (month == 10 && day <= 22)) zodiac = "Libra";
-                    else if ((month == 10 && day >= 23) || (month == 11 && day <= 21)) zodiac = "Scorpio";
-                    else if ((month == 11 && day >= 22) || (month == 12 && day <= 21)) zodiac = "Sagittarius";
-                    else zodiac = "Capricorn";
+                    if ((month == 1 && day >= 20) || (month == 2 && day <= 18)) {
+                        zodiac = "Aquarius"; 
+                    }else if ((month == 2 && day >= 19) || (month == 3 && day <= 20)) {
+                        zodiac = "Pisces"; 
+                    }else if ((month == 3 && day >= 21) || (month == 4 && day <= 19)) {
+                        zodiac = "Aries"; 
+                    }else if ((month == 4 && day >= 20) || (month == 5 && day <= 20)) {
+                        zodiac = "Taurus"; 
+                    }else if ((month == 5 && day >= 21) || (month == 6 && day <= 20)) {
+                        zodiac = "Gemini"; 
+                    }else if ((month == 6 && day >= 21) || (month == 7 && day <= 22)) {
+                        zodiac = "Cancer"; 
+                    }else if ((month == 7 && day >= 23) || (month == 8 && day <= 22)) {
+                        zodiac = "Leo"; 
+                    }else if ((month == 8 && day >= 23) || (month == 9 && day <= 22)) {
+                        zodiac = "Virgo"; 
+                    }else if ((month == 9 && day >= 23) || (month == 10 && day <= 22)) {
+                        zodiac = "Libra"; 
+                    }else if ((month == 10 && day >= 23) || (month == 11 && day <= 21)) {
+                        zodiac = "Scorpio"; 
+                    }else if ((month == 11 && day >= 22) || (month == 12 && day <= 21)) {
+                        zodiac = "Sagittarius"; 
+                    }else {
+                        zodiac = "Capricorn";
+                    }
 
                     System.out.println("Your zodiac sign is: " + zodiac);
                     break;
@@ -246,7 +291,7 @@ public class Midterm {
             }
 
         } while (choice != 15);
-        
+
         scanner.close();
     }
 }

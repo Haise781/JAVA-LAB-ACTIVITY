@@ -1,6 +1,8 @@
+
 import java.util.Scanner;
 
 public class IfElseUserInput {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -12,10 +14,9 @@ public class IfElseUserInput {
         // 3. The product of the two numbers
         // 4. The quotient of the two numbers
         // 5. The remainder (modulus) of the two numbers
-
         System.out.println("Select an arithmetic operation that you want to use: ");
         System.out.println("SUM, DIFFERENCE, PRODUCT, QUOTIENT, REMAINDER");
-        String operation = scanner.nextLine(); 
+        String operation = scanner.nextLine();
         System.out.println("");
 
         System.out.println("Enter the First number: ");
@@ -25,7 +26,6 @@ public class IfElseUserInput {
         System.out.println("Enter the Second Number: ");
         int n2 = scanner.nextInt();
 
-    
         int sum = n1 + n2;
         int difference = n1 - n2;
         int product = n1 * n2;
