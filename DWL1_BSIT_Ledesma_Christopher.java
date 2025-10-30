@@ -16,7 +16,14 @@ public class DWL1_BSIT_Ledesma_Christopher {
             }
         } while (number < 1 || number > 10 || number % 2 != 0);
 
-        System.out.println("Valid even number entered: " + number);
+
+        
+        System.out.println("Valid even number entered: " + number);\
+
+
+
+
+
 
 
         scanner.close();
