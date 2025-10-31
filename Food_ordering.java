@@ -19,6 +19,9 @@ public class Food_ordering {
         System.out.println("4. Fries - ₱50");
         System.out.println("5. Ice Cream - ₱45\n");
 
+
+        
+
         // Ask for user input
         System.out.print("Enter your choice: ");
         int choice = scanner.nextInt();
