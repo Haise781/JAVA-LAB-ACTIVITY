@@ -20,6 +20,10 @@ public class Food_ordering {
         System.out.println("5. Ice Cream - ₱45\n");
 
 
+
+
+
+
         
 
         // Ask for user input
