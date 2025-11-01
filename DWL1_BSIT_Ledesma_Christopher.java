@@ -18,12 +18,22 @@ public class DWL1_BSIT_Ledesma_Christopher {
 
 
         
+
+
+
+
+
+
         System.out.println("Valid even number entered: " + number);\
 
 
 
 
 
+
+
+
+        
 
 
         scanner.close();
