@@ -14,10 +14,6 @@ public class Task12_02_LEDESMA_Christopher {
                     System.out.println();
                     i++;
                 }
-
-
-
-
                 
 //                It will perform the Do while loop statement
                 System.out.println("\nMultiplication Table using DO-WHILE LOOP:\n");
