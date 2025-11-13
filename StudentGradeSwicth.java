@@ -28,6 +28,9 @@ public class StudentGradeSwitch {
                 
         }
 
+
+        
+
         System.out.println("Equivalent Letter Grade: " + remark);
 
         switch (remark) {
