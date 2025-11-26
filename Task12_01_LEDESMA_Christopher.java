@@ -25,6 +25,8 @@ public class Task12_01_LEDESMA_Christopher {
                     evenCount++;
                 }
                 num++;
+
+                
             }
 
             System.out.println("\n");
@@ -56,5 +58,7 @@ public class Task12_01_LEDESMA_Christopher {
 
         System.out.println("Thank you for using the program!");
         scanner.close();
+
+
     }
 }
