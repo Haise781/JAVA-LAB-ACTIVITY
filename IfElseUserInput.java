@@ -19,6 +19,8 @@ public class IfElseUserInput {
         String operation = scanner.nextLine();
         System.out.println("");
 
+        
+
         System.out.println("Enter the First number: ");
         int n1 = scanner.nextInt();
         System.out.println("");

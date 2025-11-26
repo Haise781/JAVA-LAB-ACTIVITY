@@ -24,7 +24,10 @@ public class StudentGradeSwitch {
                 break;
             default:
                 remark = 'F';
+       
         }
+
+
 
         System.out.println("Equivalent Letter Grade: " + remark);
 
