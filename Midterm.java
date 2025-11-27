@@ -158,7 +158,7 @@ public class Midterm {
                     }
                     break;
 
-                // 8️⃣ Convert Weekend and Days
+              
                 case 8:
                     System.out.print("\nEnter number of days: ");
                     int days = scanner.nextInt();
