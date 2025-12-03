@@ -11,6 +11,9 @@ public class Task13_LedesmaChristoher {
             int upperCase = 0;
             int lowerCase = 0;
             int digitsCount = 0;
+
+
+            
             int specialCount = 0;
 
             // Count character types
