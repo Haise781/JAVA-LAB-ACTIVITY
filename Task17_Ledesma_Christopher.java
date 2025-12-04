@@ -139,9 +139,13 @@ public class Task17_Ledesma_Christopher {
             }
 
             System.out.println("\nGrade Distribution:");
-            System.out.println("A: " + countA, "B: " + countB, "C: " + countC, "D: " + countD, "F: " + countF);
+            System.out.println("A: " + countA);
+            System.out.println("B: " + countB);
+            System.out.println("C: " + countC);
+            System.out.println("D: " + countD);
+            System.out.println("F: " + countF);
             
-            // ask if they want to continue 
+            // ask if they want to continue
             System.out.print("\nDo you want to continue? [Y/N]: ");
             choice = scanner.next().toUpperCase().charAt(0);
 
