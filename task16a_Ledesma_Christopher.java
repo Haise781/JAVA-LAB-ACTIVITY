@@ -7,7 +7,6 @@ public class task16a Ledesma_Christopher {
             if (number == 5) {
                 count++; // Incerement if the number is 5
             }
-
         }
         System.out.println("The number 5 appears " + count + " times in the array."); // Print the output
     }
