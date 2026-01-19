@@ -16,6 +16,7 @@ public class BMI {
 
         if (bmi < 18.5) {
             System.out.println("Underweight");
+            
         } else if (bmi < 25) {
             System.out.println("Normal weight");
         } else if (bmi < 30) {
